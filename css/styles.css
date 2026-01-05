@@ -100,7 +100,8 @@ body{
     margin: 94px 0;
     background-color: #FFFFFF;
 }
-.doing-box {
+
+.doing-bloc {
     display: flex;
     gap: 30px; 
 }
@@ -110,6 +111,7 @@ body{
     text-transform: uppercase;
     
 }
+
 .doing-attention-text {
     color: #757575;
     line-height: 24px;
@@ -120,6 +122,33 @@ body{
 .doing-100{
     flex: 1 1 23%;
 }
+
+.doing-title-text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin-top: 94px;
+}
+
+.doing-cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.doing-cards-img {
+    flex: 1 1 30px;
+    width: 370px;
+    height: 294px;
+}
+
+.doing-title img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .footer{
     background: #2F303A;
     padding: 60px 0;
