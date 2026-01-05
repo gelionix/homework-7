@@ -1,0 +1,109 @@
+@import url(recet.css);
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background:  #FFFFFF;
+    padding: 25px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    width: 145px;
+    height: 31px;
+}
+
+.header-nav {
+    margin-left: 90px;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+}
+
+.header-link {
+    font-weight: 500;
+    text-decoration: none;
+    color: #212121;
+}
+
+.header-contacts {
+    margin-left: auto;
+}
+
+.color{
+    color: #2196F3;
+}
+
+.color_1{
+    color: #757575;
+}
+
+.hero {
+    background: #2F303A;
+    color: #FFFFFF;
+}
+
+.hero-container {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    max-width: 690px;
+}
+
+.footer{
+    background: #2F303A;
+    padding: 60px 0;
+}
+
+/* .footer-container {
+    display: flex;
+    flex-direction: column;
+} */
+
+.footer-logo{
+    display: block;
+    width: 161px;
+    height: 31px;
+}
+
+.footer-box {
+/* display: flex;
+flex-direction: column;
+gap: 9px; */
+margin-top: 20px;
+line-height: 24px;
+}
+
+.copy{
+    color: #FFFFFF;
+}
+
+.footer-link {
+    color: #FFFFFF99;
+    text-decoration: none;
+}
