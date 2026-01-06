@@ -211,11 +211,11 @@ gap: 30px;
 }
 
 .footer-box {
-/* display: flex;
-flex-direction: column;
-gap: 9px; */
-margin-top: 20px;
-line-height: 24px;
+    /* display: flex;
+    flex-direction: column;
+    gap: 9px; */
+    margin-top: 20px;
+    line-height: 24px;
 }
 
 .copy{
