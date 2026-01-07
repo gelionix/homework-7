@@ -10,37 +10,35 @@
     <title>WebStudio</title>
 </head>
 <body>
-    <header>
-        <div class="header">
-            <div class="container">
-                <div class="header-container">
-                    <a class="header-logo" href="index.html">
-                        <img src="img/logo.svg" alt="WebStudio" width="145" height="31">
-                    </a>
-                    <nav class="header-nav">
-                        <ul class="nav-list">
-                            <li>
-                                <a class="header-link color" href="#">Studio</a>
-                            </li>
-                            <li>
-                                <a class="header-link" href="#">Portfolio</a>
-                            </li>
-                            <li>
-                                <a class="header-link" href="#">Contacts</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <nav class="header-contacts">
-                        <ul class="nav-list">
-                            <li>
-                                <a class="header-link color" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                            </li>
-                            <li>
-                                <a class="header-link color_1" href="tel:380961111111">+38 096 111 11 11</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <a class="header-logo" href="index.html">
+                    <img src="img/logo.svg" alt="WebStudio" width="145" height="31">
+                </a>
+                <nav class="header-nav">
+                    <ul class="nav-list">
+                        <li>
+                            <a class="header-link color" href="#">Studio</a>
+                        </li>
+                        <li>
+                            <a class="header-link" href="#">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="header-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="header-contacts">
+                    <ul class="nav-list">
+                        <li>
+                            <a class="header-link color" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li>
+                            <a class="header-link color_1" href="tel:380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
@@ -49,10 +47,10 @@
         <section class="hero">
             <div class="container hero-container">
                 <h1 class="hero-title">Effective solutions for your business</h1>
-                <!-- <button class="hero-button">
+                <!-- <button class="hero-button btn">
                     Order service
                 </button> -->
-                <a class="service-button" href="#">Order service</a>
+                <a class="service-button btn" href="#">Order service</a>
             </div>
             
         </section>
@@ -99,23 +97,31 @@
                 <div class="team-cards">
                     <article class="team-card">
                         <img class="team-card-img" src="img/teme-1.jpg" alt="foto" width="270" height="260">
-                        <h3 class="team-card-title">Igor Demyanenko</h3>
-                        <p class="team-card-description">Product Designer</p>
+                        <div class="team-card-box">
+                            <h3 class="team-card-title">Igor Demyanenko</h3>
+                            <p class="team-card-description">Product Designer</p>
+                        </div>
                     </article>
                     <article class="team-card">
                         <img class="team-card-img" src="img/teme-2.jpg" alt="foto" width="270" height="260">
-                        <h3 class="team-card-title">Olga Repina</h3>
-                        <p class="team-card-description">Frontend Developer</p>
+                        <div class="team-card-box">
+                            <h3 class="team-card-title">Olga Repina</h3>
+                            <p class="team-card-description">Frontend Developer</p>
+                        </div>
                     </article>
                     <article class="team-card">
                         <img class="team-card-img" src="img/teme-3.jpg" alt="foto" width="270" height="260">
-                        <h3 class="team-card-title">Nikolay Tarasov</h3>
-                        <p class="team-card-description">Marketing</p>
+                        <div class="team-card-box">
+                            <h3 class="team-card-title">Nikolay Tarasov</h3>
+                            <p class="team-card-description">Marketing</p>
+                        </div>
                     </article>
                     <article class="team-card">
                         <img class="team-card-img" src="img/teme-4.jpg" alt="foto" width="270" height="260">
-                        <h3 class="team-card-title">Mikhail Ermakov</h3>
-                        <p class="team-card-description">Frontend Developer</p>
+                        <div class="team-card-box">
+                            <h3 class="team-card-title">Mikhail Ermakov</h3>
+                            <p class="team-card-description">Frontend Developer</p>
+                        </div>
                     </article>
                 </div>
             </div>
@@ -131,8 +137,10 @@
                     <img src="img/footer-logo.svg" alt="WebStudio" width="161" height="31">
                 </a>
                 <div class="footer-box">
-                    <p class="copy">Kharkov, Pobedy Ave., 26</p>
                     <ul class="footer-nav-list">
+                        <li>
+                            <p>Kharkov, Pobedy Ave., 26</p>
+                        </li>
                         <li>
                             <a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>

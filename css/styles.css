@@ -62,6 +62,7 @@ body{
 .hero-container {
     min-height: 600px;
     display: flex;
+    gap: 30px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -77,18 +78,20 @@ body{
     max-width: 696px;
 }
 
-.hero-button, .service-button {
+.btn {
     padding: 10px 46px;
-    background-color: #2196F3;
-    color: #FFFFFF;
     border: none;
     border-radius: 4px;
     font-weight: 700;
     line-height: 30px;
     font-size: 16px;
     letter-spacing: 1px;
-    margin-top: 30px;
     text-decoration: none;
+}
+
+.hero-button, .service-button {
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
 
 .hero-button:active, .service-button:active{
@@ -96,7 +99,7 @@ body{
     background-color: #FFFFFF;
 }
 
-.doing{
+.doing {
     padding: 94px 0;
     background-color: #FFFFFF;
 }
@@ -141,8 +144,7 @@ body{
 }
 
 .doing-cards-img {
-    flex: 1 1 30px;
-    width: 370px;
+    flex: 1 1 30%;
     height: 294px;
 }
 
@@ -162,28 +164,34 @@ body{
 }
 
 .team-cards {
-display: flex;
-gap: 30px;
-}
-.team-card {
+    display: flex;
+    gap: 30px;
     margin-top: 50px;
+}
+
+.team-card {
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     background: #FFFFFF;
-    padding-bottom: 30px;
     flex: 1 1 23%;
     box-shadow: 0px 2px 1px #00000033;
 }
+
 .team-card-img {
     height: 260px;
     width: 100%;
     object-fit: cover;
 }
+
+.team-card-box {
+padding: 30px;
+}
+
 .team-card-title {
     font-weight: 500;
     font-size: 16px;
-    margin-top: 30px;
 }
+
 .team-card-description {
     font-size: 16px;
     color: #757575;
@@ -205,9 +213,7 @@ gap: 30px;
 } */
 
 .footer-logo{
-    display: block;
-    width: 161px;
-    height: 31px;
+    display: inline-block;
 }
 
 .footer-box {
@@ -218,11 +224,14 @@ gap: 30px;
     line-height: 24px;
 }
 
-.copy{
+.footer-nav-list a {
+    color: #FFFFFF99;
+}
+
+li {
     color: #FFFFFF;
 }
 
 .footer-link {
-    color: #FFFFFF99;
     text-decoration: none;
 }
